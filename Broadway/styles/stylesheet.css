@@ -15,8 +15,15 @@ p, li{
 
 }
 
+.header .menu{
+  padding: 5px 0px;
+
+
+}
+
 .header{
   background-image: url('../images/the-flatiron-building.PNG');
+  background-size: 100% 100%;
   margin-top: 20px;
 
 }
@@ -25,6 +32,8 @@ p, li{
   list-style: none;
   font-size: 18px;
   color: white;
+  text-decoration: underline;
+  text-align: center;
 
 }
 
@@ -55,7 +64,12 @@ p, li{
   color:  white;
 }
 
-#footer{
+#footer p, #footer ul{
+  display: inline;
+
+}
+
+#footer, #footer .menu{
   font-size: 11px;
   color: white;
   background-color: dimgray;

@@ -1,3 +1,10 @@
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black
+
+}
+
 .header{
   display: flex;
   font-family: Verdana;
@@ -40,5 +47,128 @@
 
 .main-content{
   border: 1px solid black;
+  display: flex;
+  width: 95%;
+  margin: 0px auto;
+  justify-content: flex-start;
+  flex-flow: row wrap ;
+  border: 1px solid red;
+
+}
+
+.large-main-content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  border: 2px solid blue;
+  width: 630px;
+  margin: 20px 5px 0px 0px;
+  flex-grow: 3;
+
+}
+
+.sub-content{
+  flex-grow: 1;
+  flex-shrink: 2;
+  flex-basis: 20%;
+
+}
+
+.medium-main-content{
+  border: 2px solid orange;
+  width: 300px;
+  margin: 20px 5px 0px 5px;
+  flex-grow: 2;
+
+}
+
+
+.small-main-content{
+  border: 1px solid green;
+  width: 240px;
+  margin: 20px 10px 0px 5px;
+  flex-grow: 1;
+
+}
+
+.story-title p{
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+}
+
+.content-title{
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+
+
+}
+
+.main-story-image{
+  display: flex;
+  background-image: url('../images/img-story-main.PNG');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 300px;
+
+}
+
+.main-story-image p{
+  text-align: left;
+
+}
+
+.sub-story-image-1{
+    display: flex;
+    background-image: url('../images/img-story-2.PNG');
+    background-repeat: repeat;
+    background-size:;
+    width:;
+    height: 300px;
+
+}
+
+.sub-story-image-2{
+    display: flex;
+    background-image: url('../images/img-story-3.PNG');
+    background-repeat: repeat;
+    background-size:;
+    width:;
+    height: 300px;
+}
+
+.sub-story-image-3{
+    background-image: url('../images/img-story-1.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+.large-content{
+  border: 3px solid olive;
+
+
+}
+
+
+.medium-content{
+  border: 2px solid maroon;
+
+
+}
+
+.small-content{
+  border: 1px solid purple;
+
 
 }

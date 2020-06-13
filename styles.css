@@ -1,0 +1,143 @@
+
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+/*Header menu bar styles*/
+.header-menu{
+  display: flex;
+  flex-direction: wrap row;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+
+}
+
+.header-menu img{
+  width: 150px;
+  height: 50px;
+  justify-content: flex-start;
+
+
+}
+
+.header-menu li{
+  text-decoration: underline;
+  display: inline;
+  list-style: none;
+  padding: 0px 10px;
+
+}
+
+/*Main header styles*/
+.main-header{
+  background-image: url('../images/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  margin: 0px auto;
+  position: relative;
+  top: 70px;
+  display: flex;
+  align-items: center;
+
+}
+
+.mission-txt{
+  width: 100%;
+  background-color: black;
+
+}
+
+/*Main content styles*/
+.main-content{
+  position: relative;
+  top: 70px;
+  width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.images-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+
+.main-content-title{
+  width: 1000px;
+
+}
+
+.images-container img{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px
+
+}
+
+/*Locations content styles*/
+.locations-container{
+  position: relative;
+  top: 70px;
+  background-image: url('../images/img-locations-background.jpg');
+  width: 1200px;
+  height: 600px;
+  margin: 0px auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.location-placement{
+  display: flex;
+  flex-flow: row wrap;
+
+
+}
+.location-info{
+  width: 300px;
+  margin: 15px 20px;
+  opacity: 1;
+  background-color: black;
+
+}
+/*footer styles*/
+.footer{
+  position: relative;
+  top: 70px;
+  height: 200px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.upper-footer{
+  align-self: center;
+
+}
+
+.lower-footer{
+  margin-left: 20px;
+  align-self: flex-start;
+
+}
+/*completed KHS*/
